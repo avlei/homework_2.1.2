@@ -1,3 +1,9 @@
-let age = 15;
-let canVote = age >= 18 ? "Можно голосовать" : "Нельзя голосовать";
-console.log(canVote); // "Можно голосовать"
+let data = 42;
+console.log(data);
+console.log (typeof data)
+data = "Anna";
+console.log(data);
+console.log (typeof data)
+data = true;
+console.log(data);
+console.log (typeof data)
