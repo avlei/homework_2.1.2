@@ -13,6 +13,6 @@ let total = введение + git + js;
 //подсчитаем средний балл
 let AverageScore = total / 3;
 
-console.log(`Студент: ${firstName} ${lastName}`);
+console.log(`Студент: ${firstName.slice(0,1)}. ${lastName}`);
 console.log(`Общий балл: ${total}`);
 console.log(`Средний балл: ${AverageScore}`);
